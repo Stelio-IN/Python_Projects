@@ -36,3 +36,6 @@ status(nota_1 = float(input("Digite a Primeira nota: ")),name = input("Nome do a
 
 
 print(round(abs(float(input("Enter a whole Psitive number: ")))))
+
+
+
