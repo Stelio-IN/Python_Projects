@@ -43,3 +43,20 @@ animal = "cow"
 item = "moon"
 #print("the {} jumped over the {}".format("cow","moon"))
 print("the {} jumped over the {}".format(animal,item))
+
+name = "stelio"
+
+print("Hello, my name is {}".format(name))
+print("Hello, my name is {:10}. Nice to meet you".format(name))
+print("Hello, my name is {:1<0}. Nice to meet you".format(name))
+print("Hello, my name is {:>10}. Nice to meet you".format(name))
+print("Hello, my name is {:^10}. Nice to meet you".format(name))
+
+number = 3.14159
+print("Te number pi is {:.2f}".format(number))
+
+n = 1000
+print("The number is: {:b}".format(n)) #Convert to binary
+print("The number is: {:o}".format(n)) #Convert to octal
+print("The number is: {:x}".format(n)) #Convert to hexa
+print("The number is: {:E}".format(n)) #Convert to notacao cientifi
